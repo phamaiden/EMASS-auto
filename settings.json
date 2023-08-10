@@ -5,7 +5,7 @@
         "reloadButton":"♻️", // Custom reload button text or icon (default ↻). null value enables automatic reload on configuration change
         "commands": [
             {
-                "name": "OpenCD",
+                "name": "OpenOCD",
                 "color": "green",
                 "singleInstance": true,
                 "command": "source ./auto.sh" // This is executed in the terminal.

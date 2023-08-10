@@ -2,7 +2,7 @@
 Automating workflow for EMASS
 ## How to use
 1. First download the [VsCode Action Buttons](https://marketplace.visualstudio.com/items?itemName=seunlanlege.action-buttons) extension
-2. If one doesn't already exist, create a **settings.json** file in the *.vscode* folder of your project directory and copy the following into it: 
+2. If one doesn't exist, move the **settings.json** file into the *.vscode* folder of your project directory or copy the following into it: 
 ```
     "actionButtons": {
             "defaultColor": "#ff0034", // Can also use string color names.
@@ -10,7 +10,7 @@ Automating workflow for EMASS
             "reloadButton":"♻️", // Custom reload button text or icon (default ↻). null value enables automatic reload on configuration change
             "commands": [
                 {
-                    "name": "OpenCD",
+                    "name": "OpenOCD",
                     "color": "green",
                     "singleInstance": true,
                     "command": "source ./auto.sh" // This is executed in the terminal.
