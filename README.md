@@ -20,4 +20,4 @@ Automating workflow for EMASS
 ```
 3. Clone the files of this repo into your project directory, however, move **startup.sh** to the root path where you have all of your projects
 4. In both **auto.sh** and **startup.sh**, change the PULP variable to whatever path you have **startup.sh** at
-
+5. If everything is in the correct directory, the action button should work correctly
